@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Inter:wght@400;500;600;700&display=swap');
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-ink-950 text-neutral-200 font-body antialiased;
+}
+
+.glow-card {
+  background-image: radial-gradient(circle at 50% 0%, rgba(245, 158, 11, 0.12), transparent 60%);
+}
